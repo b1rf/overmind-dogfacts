@@ -9,7 +9,7 @@ namespace OvermindDogFacts.Models
 {
     public class ConfigurationFact
     {
-        public string EndPoint { get; set; } = "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs";
+        public string EndPoint { get; set; }
 
         public string Input { get; set; }
 
